@@ -1,0 +1,23 @@
+{
+  "name": "wordfencer",
+  "version": "1.0.0",
+  "description": "A package for generating wordfence reports using a single function hook within your JS code",
+  "main": "index.js",
+  "scripts": {
+    "test": "npmt test"
+  },
+  "keywords": [
+    "wordfence",
+    "javascript",
+    "node",
+    "web",
+    "development",
+    "web development",
+    "front end development"
+  ],
+  "author": "Calum Ogilvie",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  }
+}

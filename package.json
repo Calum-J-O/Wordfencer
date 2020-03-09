@@ -2,9 +2,10 @@
   "name": "wordfencer",
   "version": "1.0.0",
   "description": "A package for generating wordfence reports using a single function hook within your JS code",
-  "main": "index.js",
+  "main": "build/index.js",
   "scripts": {
-    "test": "npm test"
+    "test": "nodemon build/index.js", 
+    "start": "node build/index.js"
   },
   "keywords": [
     "wordfence",
@@ -28,5 +29,8 @@
     "gulp-rename": "^2.0.0",
     "gulp-sourcemaps": "^2.6.5",
     "gulp-uglify": "^3.0.2"
+  },
+  "dependencies": {
+    "jquery": "^3.4.1"
   }
 }

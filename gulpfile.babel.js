@@ -12,12 +12,7 @@ const uglify = require('gulp-uglify');
 
 function compileJs() {
     return src("src/**/*.js")
-        .pipe(sourcemaps.init())
         .pipe(babel())
-        .pipe(uglify())
-        .pipe(concat('sourcecode.js'))
-        .pipe(rename({ extname: '.min.js'}))
-        .pipe(sourcemaps.write("."))
         .pipe(dest('build'));
 };
 
